@@ -73,7 +73,7 @@ section#ficha {
   grid-column: 2;
 }
 
-section#ficha img.foto {
+section#ficha img {
   width: 200px;
   aspect-ratio: 1/1;
   object-fit: cover;
