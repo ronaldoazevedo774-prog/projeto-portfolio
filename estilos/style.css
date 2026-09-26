@@ -50,6 +50,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+  border-radius: 0px 0px 10px 10px;
 }
 
 nav#menu ul {
@@ -204,6 +205,20 @@ article h2 {
   object-fit: cover;
   overflow: hidden;
   border-radius: 8px;
+}
+
+footer {
+  background-color: var(--destaque);
+  color: var(--texto-inverso);
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+footer p {
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
